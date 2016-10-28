@@ -1,0 +1,29 @@
+h1 {
+	font-family: Lobster, Monospace;
+	color:green;
+}
+h4 {
+	padding: 10px;
+	margin: 10px;
+}
+
+p {
+	display: block;
+}	
+.navbar {
+	background-color: c0392b;
+}
+.navbar:hover {
+	background-color: red;
+}
+
+/*****************
+Media queries
+*****************/
+
+@media (max-width:600px){
+	#btn1 {
+		color:green;
+	}
+
+}
